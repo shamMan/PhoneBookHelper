@@ -7,17 +7,22 @@
 //
 
 #import "AppDelegate.h"
-
-#import "ViewController.h"
+#import "views/FirstViewController.h"
 
 @implementation AppDelegate
 
+- (void)dealloc
+{
+    [_window release];
+    return [super dealloc];
+}
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
-    self.viewController = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
-    self.window.rootViewController = self.viewController;
+    UINavigationController* nav =   [[[UINavigationController alloc] initWithRootViewController:[[[FirstViewController alloc] initWithStyle:UITableViewStylePlain] autorelease]] autorelease];
+    self.window.rootViewController = nav;
     [self.window makeKeyAndVisible];
     return YES;
 }

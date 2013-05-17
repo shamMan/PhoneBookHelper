@@ -16,13 +16,18 @@
 		04442D0F1740BE7400EA0624 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 04442D0E1740BE7400EA0624 /* Default.png */; };
 		04442D111740BE7400EA0624 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04442D101740BE7400EA0624 /* Default@2x.png */; };
 		04442D131740BE7400EA0624 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04442D121740BE7400EA0624 /* Default-568h@2x.png */; };
-		04442D161740BE7400EA0624 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04442D151740BE7400EA0624 /* ViewController.m */; };
 		04442D191740BE7500EA0624 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04442D171740BE7400EA0624 /* ViewController.xib */; };
 		04442D211740BE7500EA0624 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04442D201740BE7500EA0624 /* SenTestingKit.framework */; };
 		04442D221740BE7500EA0624 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04442CFC1740BE7400EA0624 /* UIKit.framework */; };
 		04442D231740BE7500EA0624 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04442CFE1740BE7400EA0624 /* Foundation.framework */; };
 		04442D2B1740BE7500EA0624 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04442D291740BE7500EA0624 /* InfoPlist.strings */; };
 		04442D2E1740BE7500EA0624 /* PhoneBookHelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04442D2D1740BE7500EA0624 /* PhoneBookHelperTests.m */; };
+		04442D3B1740C64400EA0624 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04442D391740C64400EA0624 /* FirstViewController.m */; };
+		04442D3F1740CB2600EA0624 /* PhoneBookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04442D3E1740CB2600EA0624 /* PhoneBookViewController.m */; };
+		04826F021744C626000B7ECE /* SearchHelpr.m in Sources */ = {isa = PBXBuildFile; fileRef = 04826F011744C626000B7ECE /* SearchHelpr.m */; };
+		04C174331740D6C80018F5AB /* Contacts.mm in Sources */ = {isa = PBXBuildFile; fileRef = 04C174321740D6C80018F5AB /* Contacts.mm */; };
+		04CAB9701742058A009489F1 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04CAB96F17420589009489F1 /* AddressBook.framework */; };
+		04DCF2C01745D5F100DBF25C /* pinyin.c in Sources */ = {isa = PBXBuildFile; fileRef = 04DCF2BE1745D5F100DBF25C /* pinyin.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,8 +54,6 @@
 		04442D0E1740BE7400EA0624 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		04442D101740BE7400EA0624 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		04442D121740BE7400EA0624 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		04442D141740BE7400EA0624 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		04442D151740BE7400EA0624 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		04442D181740BE7500EA0624 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		04442D1F1740BE7500EA0624 /* PhoneBookHelperTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhoneBookHelperTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04442D201740BE7500EA0624 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -58,6 +61,17 @@
 		04442D2A1740BE7500EA0624 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		04442D2C1740BE7500EA0624 /* PhoneBookHelperTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhoneBookHelperTests.h; sourceTree = "<group>"; };
 		04442D2D1740BE7500EA0624 /* PhoneBookHelperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhoneBookHelperTests.m; sourceTree = "<group>"; };
+		04442D381740C64400EA0624 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		04442D391740C64400EA0624 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		04442D3D1740CB2600EA0624 /* PhoneBookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneBookViewController.h; sourceTree = "<group>"; };
+		04442D3E1740CB2600EA0624 /* PhoneBookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhoneBookViewController.m; sourceTree = "<group>"; };
+		04826F001744C626000B7ECE /* SearchHelpr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchHelpr.h; sourceTree = "<group>"; };
+		04826F011744C626000B7ECE /* SearchHelpr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchHelpr.m; sourceTree = "<group>"; };
+		04C174311740D6C80018F5AB /* Contacts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contacts.h; sourceTree = "<group>"; };
+		04C174321740D6C80018F5AB /* Contacts.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Contacts.mm; sourceTree = "<group>"; };
+		04CAB96F17420589009489F1 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		04DCF2BE1745D5F100DBF25C /* pinyin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pinyin.c; sourceTree = "<group>"; };
+		04DCF2BF1745D5F100DBF25C /* pinyin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pinyin.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04CAB9701742058A009489F1 /* AddressBook.framework in Frameworks */,
 				04442CFD1740BE7400EA0624 /* UIKit.framework in Frameworks */,
 				04442CFF1740BE7400EA0624 /* Foundation.framework in Frameworks */,
 				04442D011740BE7400EA0624 /* CoreGraphics.framework in Frameworks */,
@@ -87,6 +102,7 @@
 		04442CF01740BE7400EA0624 = {
 			isa = PBXGroup;
 			children = (
+				04CAB96F17420589009489F1 /* AddressBook.framework */,
 				04442D021740BE7400EA0624 /* PhoneBookHelper */,
 				04442D261740BE7500EA0624 /* PhoneBookHelperTests */,
 				04442CFB1740BE7400EA0624 /* Frameworks */,
@@ -117,10 +133,11 @@
 		04442D021740BE7400EA0624 /* PhoneBookHelper */ = {
 			isa = PBXGroup;
 			children = (
-				04442D0B1740BE7400EA0624 /* AppDelegate.h */,
+				04826EFF1744C5F9000B7ECE /* common */,
+				04C174301740D6820018F5AB /* utity */,
+				04442D371740C5FB00EA0624 /* views */,
 				04442D0C1740BE7400EA0624 /* AppDelegate.m */,
-				04442D141740BE7400EA0624 /* ViewController.h */,
-				04442D151740BE7400EA0624 /* ViewController.m */,
+				04442D0B1740BE7400EA0624 /* AppDelegate.h */,
 				04442D171740BE7400EA0624 /* ViewController.xib */,
 				04442D031740BE7400EA0624 /* Supporting Files */,
 			);
@@ -158,6 +175,37 @@
 				04442D291740BE7500EA0624 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04442D371740C5FB00EA0624 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				04442D381740C64400EA0624 /* FirstViewController.h */,
+				04442D391740C64400EA0624 /* FirstViewController.m */,
+				04442D3D1740CB2600EA0624 /* PhoneBookViewController.h */,
+				04442D3E1740CB2600EA0624 /* PhoneBookViewController.m */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		04826EFF1744C5F9000B7ECE /* common */ = {
+			isa = PBXGroup;
+			children = (
+				04DCF2BE1745D5F100DBF25C /* pinyin.c */,
+				04DCF2BF1745D5F100DBF25C /* pinyin.h */,
+				04826F001744C626000B7ECE /* SearchHelpr.h */,
+				04826F011744C626000B7ECE /* SearchHelpr.m */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		04C174301740D6820018F5AB /* utity */ = {
+			isa = PBXGroup;
+			children = (
+				04C174311740D6C80018F5AB /* Contacts.h */,
+				04C174321740D6C80018F5AB /* Contacts.mm */,
+			);
+			path = utity;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,7 +320,11 @@
 			files = (
 				04442D091740BE7400EA0624 /* main.m in Sources */,
 				04442D0D1740BE7400EA0624 /* AppDelegate.m in Sources */,
-				04442D161740BE7400EA0624 /* ViewController.m in Sources */,
+				04442D3B1740C64400EA0624 /* FirstViewController.m in Sources */,
+				04442D3F1740CB2600EA0624 /* PhoneBookViewController.m in Sources */,
+				04C174331740D6C80018F5AB /* Contacts.mm in Sources */,
+				04826F021744C626000B7ECE /* SearchHelpr.m in Sources */,
+				04DCF2C01745D5F100DBF25C /* pinyin.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,9 +433,12 @@
 		04442D321740BE7500EA0624 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN__ARC_BRIDGE_CAST_NONARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PhoneBookHelper/PhoneBookHelper-Prefix.pch";
 				INFOPLIST_FILE = "PhoneBookHelper/PhoneBookHelper-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -392,9 +447,12 @@
 		04442D331740BE7500EA0624 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN__ARC_BRIDGE_CAST_NONARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PhoneBookHelper/PhoneBookHelper-Prefix.pch";
 				INFOPLIST_FILE = "PhoneBookHelper/PhoneBookHelper-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -453,6 +511,7 @@
 				04442D331740BE7500EA0624 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04442D341740BE7500EA0624 /* Build configuration list for PBXNativeTarget "PhoneBookHelperTests" */ = {
 			isa = XCConfigurationList;
@@ -461,6 +520,7 @@
 				04442D361740BE7500EA0624 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

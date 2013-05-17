@@ -8,6 +8,15 @@
 
 #import <Foundation/Foundation.h>
 
-@interface SearchHelpr : NSObject
+
+typedef NSArray* (^SearchBlock) (NSArray* source,NSString* keywords);
+
+@interface SearchHelper : NSObject
+@property (assign,nonatomic) SearchBlock   searchBlock;
+@property (retain,nonatomic) NSArray*      sourceArray;
+
+// search
+-(NSArray*) searchResultForKeyword:(NSString*) keyword;
 
 @end
+
